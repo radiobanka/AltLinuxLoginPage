@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>components/CircularProgressBar.qml</file>
+        <file>components/CustomButton.qml</file>
+        <file>components/CustomTestField.qml</file>
+        <file>image/logo.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/radiobanka/develop/github-splash-screen/build/github-splash-screen_autogen",
+	"CMAKE_BINARY_DIR" : "/home/radiobanka/develop/github-splash-screen/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/radiobanka/develop/github-splash-screen/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/radiobanka/develop/github-splash-screen",
+	"CMAKE_SOURCE_DIR" : "/home/radiobanka/develop/github-splash-screen",
+	"INCLUDE_DIR" : "/home/radiobanka/develop/github-splash-screen/build/github-splash-screen_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/radiobanka/develop/github-splash-screen/main.qml",
+		"/home/radiobanka/develop/github-splash-screen/components/CircularProgressBar.qml",
+		"/home/radiobanka/develop/github-splash-screen/components/CustomButton.qml",
+		"/home/radiobanka/develop/github-splash-screen/components/CustomTestField.qml",
+		"/home/radiobanka/develop/github-splash-screen/image/logo.png"
+	],
+	"LOCK_FILE" : "/home/radiobanka/develop/github-splash-screen/build/CMakeFiles/github-splash-screen_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/share/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/radiobanka/develop/github-splash-screen/build/CMakeFiles/github-splash-screen_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/radiobanka/develop/github-splash-screen/qml.qrc",
+	"VERBOSITY" : 0
+}
