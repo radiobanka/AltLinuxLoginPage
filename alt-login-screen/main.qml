@@ -11,7 +11,7 @@ Window {
     height: 580
     visible: true
     property alias bg: bg
-    title: qsTr("Hello World")
+    title: qsTr("Alt Login Screen")
 
     Rectangle {
         id: bg
@@ -54,7 +54,7 @@ Window {
             anchors.horizontalCenter: parent.horizontalCenter
             font.weight: Font.Bold
             antialiasing: false
-            placeholderTextColor: "#161719"
+            placeholderTextColor: "#7b7d81"
             colorMouseOver: "#f0c92c"
             colorDefault: "#f6f5f2"
             smooth: true
@@ -73,7 +73,7 @@ Window {
             horizontalAlignment: Text.AlignHCenter
             anchors.bottomMargin: 109
             anchors.horizontalCenter: parent.horizontalCenter
-            placeholderTextColor: "#141516"
+            placeholderTextColor: "#7b7d81"
             colorMouseOver: "#f0c92c"
             font.weight: Font.Bold
             colorDefault: "#f7f7f7"
@@ -107,8 +107,11 @@ Window {
             id: label
             y: 295
             opacity: 0
-            color: "#020202"
+            color: "#25272c"
             text: qsTr("Войти в AltLinux")
+            horizontalAlignment: Text.AlignHCenter
+            styleColor: "#0f0e0e"
+            antialiasing: true
             font.weight: Font.Bold
             scale: 1
             smooth: true
@@ -117,20 +120,6 @@ Window {
             anchors.horizontalCenter: parent.horizontalCenter
             font.pointSize: 16
             clip: true
-        }
-
-        Label {
-            id: label1
-            y: 341
-            opacity: 1
-            color: "#f9fbfc"
-            text: qsTr("Username or email adress and password")
-            scale: 0
-            smooth: true
-            anchors.horizontalCenter: textPassword.horizontalCenter
-            anchors.bottomMargin: 20
-            clip: true
-            font.pointSize: 10
         }
 
         CustomButton {
@@ -185,14 +174,14 @@ Window {
             TimelineAnimation {
                 id: timelineAnimation
                 running: true
-                duration: 3000
+                duration: 5000
                 loops: 1
                 to: 3000
                 from: 0
             }
         ]
         enabled: true
-        endFrame: 3000
+        endFrame: 5000
         startFrame: 0
 
         KeyframeGroup {
@@ -205,7 +194,7 @@ Window {
             }
 
             Keyframe {
-                frame: 1299
+                frame: 1030
                 value: 100
             }
         }
@@ -215,12 +204,12 @@ Window {
             property: "opacity"
 
             Keyframe {
-                frame: 1299
+                frame: 1030
                 value: 1
             }
 
             Keyframe {
-                frame: 1801
+                frame: 1428
                 value: 0
             }
 
@@ -235,33 +224,13 @@ Window {
             property: "opacity"
 
             Keyframe {
-                frame: 2440
+                frame: 2443
                 value: 1
             }
 
             Keyframe {
-                frame: 1912
+                frame: 1834
                 value: 0
-            }
-
-            Keyframe {
-                frame: 0
-                value: "0"
-            }
-        }
-
-        KeyframeGroup {
-            target: label1
-            property: "opacity"
-
-            Keyframe {
-                frame: 2031
-                value: 0
-            }
-
-            Keyframe {
-                frame: 2606
-                value: 1
             }
 
             Keyframe {
@@ -275,12 +244,12 @@ Window {
             property: "opacity"
 
             Keyframe {
-                frame: 2146
+                frame: 2581
                 value: 0
             }
 
             Keyframe {
-                frame: 2721
+                frame: 2844
                 value: 1
             }
 
@@ -295,12 +264,12 @@ Window {
             property: "opacity"
 
             Keyframe {
-                frame: 2254
+                frame: 2534
                 value: 0
             }
 
             Keyframe {
-                frame: 2810
+                frame: 2854
                 value: 1
             }
 
@@ -315,12 +284,12 @@ Window {
             property: "opacity"
 
             Keyframe {
-                frame: 2376
+                frame: 2688
                 value: 0
             }
 
             Keyframe {
-                frame: 2891
+                frame: 2850
                 value: 1
             }
 
@@ -335,12 +304,12 @@ Window {
             property: "height"
 
             Keyframe {
-                frame: 1300
+                frame: 1868
                 value: 360
             }
 
             Keyframe {
-                frame: 1803
+                frame: 2591
                 value: 560
             }
 
@@ -356,7 +325,7 @@ Window {
 
             Keyframe {
                 easing.bezierCurve: [0.772,0.0103,0.22,0.992,1,1]
-                frame: 1649
+                frame: 1493
                 value: 0
             }
 
@@ -367,7 +336,7 @@ Window {
 
             Keyframe {
                 easing.bezierCurve: [0.2,0.2,0.8,0.8,1,1]
-                frame: 2889
+                frame: 2358
                 value: "1"
             }
         }
@@ -376,7 +345,7 @@ Window {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.9}D{i:2}D{i:3}D{i:4}D{i:5}D{i:6;invisible:true}D{i:7}D{i:8}
-D{i:9}D{i:1}D{i:10}D{i:45;property:"opacity";target:"logo_alt_company_small"}D{i:11}
+    D{i:0;formeditorZoom:0.9}D{i:2}D{i:3}D{i:4}D{i:5}D{i:6}D{i:7}D{i:8}D{i:1}D{i:9}D{i:40;property:"opacity";target:"logo_alt_company_small"}
+D{i:10}
 }
 ##^##*/
