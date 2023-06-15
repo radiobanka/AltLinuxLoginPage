@@ -1,5 +1,0 @@
-/home/radiobanka/develop/github-splash-screen/build/CMakeFiles/github-splash-screen.dir
-/home/radiobanka/develop/github-splash-screen/build/CMakeFiles/edit_cache.dir
-/home/radiobanka/develop/github-splash-screen/build/CMakeFiles/rebuild_cache.dir
-/home/radiobanka/develop/github-splash-screen/build/CMakeFiles/github-splash-screen_autogen_timestamp_deps.dir
-/home/radiobanka/develop/github-splash-screen/build/CMakeFiles/github-splash-screen_autogen.dir
